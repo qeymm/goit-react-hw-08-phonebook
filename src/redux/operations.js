@@ -8,11 +8,6 @@ const setAuthHeader = token => {
   axios.defaults.headers.common.Authorization = `Bearer ${token}`;
 };
 
-// Utility to remove JWT token
-const clearAuthHeader = () => {
-  axios.defaults.headers.common.Authorization = '';
-};
-
 // Helper to get token from state and set header
 const getTokenAndSetHeader = thunkAPI => {
   const state = thunkAPI.getState();
