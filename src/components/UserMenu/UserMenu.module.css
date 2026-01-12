@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.email {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #FDF5E6;
+}
+
+.logoutButton {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: 1px solid #CD853F;
+  color: #FDF5E6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.logoutButton:hover {
+  background-color: #CD853F;
+  color: #FDF5E6;
+  border-color: #D2691E;
+}
+
+.logoutButton:active {
+  background-color: #D2691E;
+}
